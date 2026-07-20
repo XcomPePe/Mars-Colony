@@ -8,6 +8,7 @@ class Colony:
         self.energy = 50
         self.chicks = "few"
         self.day = 1
+        self.population = 5
 
     def show_status(self):
         print(f"=== {self.name} ===")
@@ -16,6 +17,7 @@ class Colony:
         print(f"Food: {self.food}")
         print(f"Energy: {self.energy}")
         print(f"Chicks: {self.chicks} :(")
+        print(f"Population: {self.population}")
     
     def next_day(self):
         self.day += 1
