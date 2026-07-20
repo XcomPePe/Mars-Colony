@@ -19,5 +19,3 @@ v0.4 - Population System
 - [ ] Random events
 - [ ] Colony automation
 - [ ] Self-sustaining AI systems
-Current version:
-v0.3
