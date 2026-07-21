@@ -3,6 +3,7 @@
 A Python simulation game about building and managing a self-sustaining colony on Mars.
 
 ## Current version
+v0.5 - My first Colonist class
 v0.4 - Population System
 
 ## Features
