@@ -14,8 +14,8 @@ v0.7 - Dynamic population system
 
 ## Roadmap
 
-- [ ] Colonist objects
-- [ ] Resource consumption
+- [x] Colonist objects
+- [x] Resource consumption
 - [ ] Random events
 - [ ] Colony automation
 - [ ] Self-sustaining AI systems

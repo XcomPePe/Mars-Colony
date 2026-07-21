@@ -24,10 +24,10 @@ class Colony:
     
     def next_day(self):
         self.day += 1
-        self.oxygen -= 2
-        self.food -= 3
-        self.energy -= 1 
-        
+        self.energy -= 1
+        for colonist in self.colonists:
+            colonist.change_colony_state(self)
+
     def add_colonist(self, colonist):
         self.colonists.append(colonist)
         

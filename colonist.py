@@ -6,3 +6,7 @@ class Colonist:
         self.age = age
         self.health = health
         self.job = job
+    def change_colony_state(self, colony):
+        colony.oxygen -= 2
+        colony.food -= 2
+        

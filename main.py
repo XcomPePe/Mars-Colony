@@ -11,9 +11,11 @@ def main():
     
     przemek = Colonist("Przemek", 39, 100, "Supervisor")
     ewa = Colonist("Ewa", 29, 100, "Hot Chick (Very Hot)" )
+    alien = Colonist("Alien", 20, 100, "Farmer")
     
     colony.add_colonist(przemek)
     colony.add_colonist(ewa)
+    colony.add_colonist(alien)
     
     for i in range(10):
         colony.show_status()
