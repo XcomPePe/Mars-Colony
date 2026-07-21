@@ -13,7 +13,13 @@ def main():
         colony.show_status()
         colony.next_day()
     
-    colonist = Colonist("Przemek")
+    przemek = Colonist("Przemek")
+    ewa = Colonist("Ewa")
+    
+    colony.add_colonist(przemek)
+    colony.add_colonist(ewa)
+    
+    colony.show_colonists()
     
 if __name__ == "__main__":
     main()

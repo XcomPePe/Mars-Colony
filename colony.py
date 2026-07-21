@@ -9,6 +9,7 @@ class Colony:
         self.chicks = "few"
         self.day = 1
         self.population = 5
+        self.colonists = []
 
     def show_status(self):
         print(f"=== {self.name} ===")
@@ -24,3 +25,10 @@ class Colony:
         self.oxygen -= 2
         self.food -= 3
         self.energy -= 1 
+        
+    def add_colonist(self, colonist):
+        self.colonists.append(colonist)
+        
+    def show_colonists(self):
+        for colonist in self.colonists:
+            print(colonist.name)
