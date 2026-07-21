@@ -3,7 +3,7 @@
 A Python simulation game about building and managing a self-sustaining colony on Mars.
 
 ## Current version
-v0.7 - Dynamic population system
+v0.8 - Colonist resource consumption
 
 ## Features
 
