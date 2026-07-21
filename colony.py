@@ -1,5 +1,7 @@
 #colony.py
 
+from colonist import Colonist
+
 class Colony:
     def __init__(self, name):
         self.name = name
@@ -8,8 +10,8 @@ class Colony:
         self.energy = 50
         self.chicks = "few"
         self.day = 1
-        self.population = 5
-        self.colonists = []
+        self.population = 0
+        self.colonists: list[Colonist] = []
 
     def show_status(self):
         print(f"=== {self.name} ===")
@@ -17,8 +19,8 @@ class Colony:
         print(f"Oxygen: {self.oxygen}")
         print(f"Food: {self.food}")
         print(f"Energy: {self.energy}")
-        print(f"Chicks: {self.chicks} :(")
-        print(f"Population: {self.population}")
+        print(f"Chicks: {self.chicks}")
+        print(f"Population:", len(self.colonists))
     
     def next_day(self):
         self.day += 1
@@ -32,3 +34,6 @@ class Colony:
     def show_colonists(self):
         for colonist in self.colonists:
             print(colonist.name)
+            print(colonist.job)
+            print(colonist.age)
+            print(colonist.health)
